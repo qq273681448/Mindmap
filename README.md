@@ -1,1 +1,1 @@
-# Mindmap1
+# Mindmap

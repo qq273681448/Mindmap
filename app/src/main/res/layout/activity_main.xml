@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/backschool_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background" />
+
+    <com.xlm1.mindmap.HVScrollView
+        android:id="@+id/hvscrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/layout_zone"
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:orientation="horizontal">
+
+        </RelativeLayout>
+    </com.xlm1.mindmap.HVScrollView>
+
+    <TextView
+        android:id="@+id/murp_nodemodel_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="切换"
+        android:textSize="20sp" />
+</RelativeLayout>
